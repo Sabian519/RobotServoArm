@@ -92,7 +92,7 @@ void setup() {
 
 | Fungsi | Parameter | Keterangan |
 |---|---|---|
-| `begin(bPin, sPin, ePin, gPin)` | nomor pin | Inisialisasi 4 servo & batas pulsa |
+| `begin(bPin, sPin, ePin, gPin)` | nomor pin | Inisialisasi 4 servo & batas |
 | `moveTo(x, y, z, ms)` | mm, mm, mm, durasi | Gerak ke koordinat dalam durasi tertentu |
 | `grip(f)` | 0–1 (0 %–100 %) | Tutup gripper dengan gaya tertentu |
 | `release()` | – | Buka gripper |
